@@ -70,7 +70,8 @@
           <span class="text-primary">Bica</span>
         </h1>
         <p class="lead mb-5">A creative data scientist, programmer, and big data enthusiast interested in applied
-          machine learning methods and data visualization techniques to draw insights and tackle interesting problems.
+          machine learning methods and data visualization techniques to draw insights and tackle interesting
+          business problems.
         </p>
         <p>
           <b>Get in touch:</b>
@@ -97,10 +98,9 @@
           where one of my key roles includes leading an analytics project committee consisting of 25 Resident Assistants.
           Prior to graduate school, I worked for over three years at two major global professional and financial services
           companies as an IT Auditor using data analytics to optimize the traditional audit approach. I'm skilled in
-          Python, R, Scala, SQL, Google Cloud Platform/AWS and enjoy picking up new skills and working on fun and useful projects that broaden my
-          own programming and data science toolkit. My current projects include working on a Google Natural Question
-          answering problem to help make advances in natural language understanding (NLU) and exploring health-based
-          tweets through topic modeling and sentiment analysis.
+          Python, R, SQL, Scala, Google Cloud Platform/AWS and enjoy picking up new skills and working on fun and
+          useful projects that broaden my own programming and data science toolkit. My current projects include
+          getting an AWS certification and working on predictive models for forecasting and sales use cases.
         </p>
         <p>Let's connect!</p>
         <div class="social-icons">
@@ -140,10 +140,11 @@
           <div class="resume-content">
             <h3 class="mb-0">Senior IT Audit Officer</h3>
             <div class="subheading mb-3">State Street Corporation</div>
-            <p>Served as main liaison for client communication and engagement during planning, assessment, and testing phases.
-              Implemented a new data analytics approach to test 100% of FX repatriation transactions over a six-month period
-              and identified 30+ outlier transactions which missed their configured sweep and pricing windows. Implemented an
-              automatic-analytic tool in Tableau to identify inappropriate user access across key bank applications. </p>
+            <p>Served as main liaison for client communication and engagement during planning, assessment, and testing
+              phases. Implemented a new data analytics approach to test 100% of FX repatriation transactions over a
+              six-month period and identified 30+ outlier transactions which missed their configured sweep and pricing
+              windows. Implemented an automatic-analytic tool in Tableau to identify inappropriate user access across
+              key bank applications. </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2017 - July 2019</span>
@@ -170,8 +171,9 @@
             <h3 class="mb-0">Data Warehouse Engineer Intern</h3>
             <div class="subheading mb-3">Priceline.com</div>
             <p>Created weekly Tableau license utilization reports and dashboards to allow management to identify 15% of
-              lost value due to inactivity. Delivered business plan pitch to CEO & executive leadership to increase
-              small business booking using historical booking data. </p>
+              lost value due to inactivity. Used SQL to query databases in the corporate data warehouse and
+              make changes for reporting purposes at request of business teams. Delivered business plan pitch to CEO &
+              executive leadership to increase small business booking using historical booking data. </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2015 - August 2015</span>
@@ -256,7 +258,19 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             SQL
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Pandas & NumPy
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            TensorFlow
              </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Dash-Plotly
+          </li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Google Cloud Platform(GCP)
@@ -281,51 +295,76 @@
         <h2 class="mb-5">Projects</h2>
         <div class="container">
           <div class = "row">
+            <div class="col-sm">
+              <div class="subheading mb-3">Health Tweet Topic Modeling</div>
+              <a href="https://health-tweets-topics.herokuapp.com/">
+              <img class="img" src="img\sttm-dashboard-demo.gif" alt="" width="305" height="203">
+              </a>
+              <p> <span style="font-size: xx-small; ">
+                An interactive dashboard powered by Dash-Plotly using Python framework that explores
+                topic modeling approaches such as Latent Dirichilet Allocation and Gibbs Sampling Dirichilet Mixture
+                Models on health-related tweets scraped from 2014 - 2020.</span>
+                |<a href="https://github.com/bicachu/topic-modeling-health-tweets">
+                  <i class="fab fa-github-square"></i>
+                </a>|
+              </p>
+            </div>
           <div class="col-sm">
-            <div class="subheading mb-3">Distributed Matrix Factorization</div>
-                <img class="img" src="img/matrix-factorization-diagram.jpg" alt="" width="305" height="203">
-                <p> <font size="1">An Apache Spark Scala distributed implementation of matrix factorization using ALS.
-                  Netflix Movie Rating data set used to predict ratings of unseen movies for users and can be used
-                  for recommendation with collaborative filtering.</font>
-                  |<a href="https://github.com/bicachu/Distributed-Matrix-Factorization">
+            <div class="subheading mb-3">Google Natural Question Answering System </div>
+                <img class="img" src="img/bert_architecture.JPG" alt="" width="305" height="203">
+                <p> <span style="font-size: xx-small; "> An implementation of an ensemble of Bidirectional Encoder
+                  Representations from Transformers (BERT) models submitted to
+                  <a href = "https://ai.google.com/research/NaturalQuestions/dataset">
+                    Google's Natural Question Answering Challenge
+                  </a>. BERT models were fine-tuned and trained using a TensorFlow framework using TPUs on Google Cloud
+                  Platform (GCP). A Docker image of models was submitted to Google and placed amongst top 10 entries
+                  for both long and short answer tasks.</span>
+                  |<a href="https://github.com/bicachu/natural-questions-nlp">
                   <i class="fab fa-github-square"></i>
                   </a>|
                 </p>
               </div>
-          <div class="col-sm">
-            <div class="subheading mb-3">Spanish High Speed Rail - Price Prediction</div>
-              <img class="img" src="img/spain-renfe-cities.jpg" alt="" width="305" height="203">
-            <p> <font size="1"> Machine Learning Regression Models implemented in Python using SciKit-Learn and Jupyter Notebook. Goal is to
-              predict train ticket pricing for Spain's high-speed train network across five major cities to determine best
-              time to buy fare.</font>
-              |<a href="https://github.com/bicachu/spanish-high-speed-rail-RENFE">
-                <i class="fab fa-github-square"></i>
-              </a>|
-            </p>
           </div>
-        </div>
+          <div class = "row">
+            <div class="col-sm">
+              <div class="subheading mb-3">Distributed Matrix Factorization</div>
+              <img class="img" src="img/matrix-factorization-diagram.jpg" alt="" width="305" height="203">
+              <p> <span style="font-size: xx-small; ">
+                An Apache Spark Scala distributed implementation of matrix factorization using ALS.
+                Netflix Movie Rating data set used to predict ratings of unseen movies for users and can be used
+                for recommendation with collaborative filtering.</span>
+                |<a href="https://github.com/bicachu/Distributed-Matrix-Factorization">
+                  <i class="fab fa-github-square"></i>
+                </a>|
+              </p>
+            </div>
+            <div class="col-sm">
+              <div class="subheading mb-3">Spanish High Speed Rail - Price Prediction</div>
+              <img class="img" src="img/spain-renfe-cities.jpg" alt="" width="305" height="203">
+              <p> <span style="font-size: xx-small; ">
+                Machine Learning Regression Models implemented in Python using SciKit-Learn and Jupyter Notebook. The
+                goal is to predict train ticket pricing for Spain's high-speed train network across five major cities
+                to determine best time to buy fare.</span>
+                |<a href="https://github.com/bicachu/spanish-high-speed-rail-RENFE">
+                  <i class="fab fa-github-square"></i>
+                </a>|
+              </p>
+            </div>
+          </div>
           <div class = "row">
             <div class="col-sm">
               <div class="subheading mb-3">Page Rank Distributed Algorithm</div>
               <img class="img" src="img/page-rank.jpg" alt="" width="305" height="203">
-              <p> <font size="1">A Scala implementation of Larry's famous PageRank algorithm. Algorithm was
-              run on simplified synthetic graph of nodes including dangling nodes where the graph consists of k linear
-                chains, each with k vertices.</font>
+              <p> <span style="font-size: xx-small; ">
+                A Scala implementation of Larry's famous PageRank algorithm. Algorithm was
+                run on simplified synthetic graph of nodes including dangling nodes where the graph consists of k linear
+                chains, each with k vertices.</span>
                 |<a href="https://github.com/bicachu/PageRank">
                   <i class="fab fa-github-square"></i>
                 </a>|
               </p>
             </div>
             <div class="col-sm">
-              <div class="subheading mb-3">Spam Detection using Adaboost CLF</div>
-              <img class="img" src="img/adaboost-clf.jpg" alt="" width="305" height="203">
-              <p> <font size="1"> AdaBoost Classifier implementation in Python built from scratch used to classify emails
-                as either "Spam" or "Ham". Uses data from the Spam Base Data set provided through UC Irvine's Machine
-                Learning Repository.</font>
-                |<a href="https://github.com/bicachu/AdaBoost-implementation">
-                  <i class="fab fa-github-square"></i>
-                </a>|
-              </p>
             </div>
           </div>
         </div>
